@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/main_background"
     tools:context=".MainActivity" >
 
     <android.support.v4.view.ViewPager
@@ -18,9 +18,14 @@
         android:id="@+id/dotsLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="20dp"
+        android:layout_alignBottom="@+id/slideViewPager"
         android:layout_centerHorizontal="true"
-        android:layout_margin="50dp"></LinearLayout>
+        android:layout_margin="5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="641dp"
+        android:orientation="horizontal"
+        android:padding="20dp" />
 
 </RelativeLayout>
