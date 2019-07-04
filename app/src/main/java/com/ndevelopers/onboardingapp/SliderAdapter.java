@@ -2,6 +2,7 @@ package com.ndevelopers.onboardingapp;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.support.constraint.ConstraintLayout;
 import android.support.v4.view.PagerAdapter;
 import android.transition.Slide;
 import android.view.LayoutInflater;
@@ -46,7 +47,7 @@ public class SliderAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(@NonNull View view, @NonNull Object o) {
-        return view == (RelativeLayout) o;
+        return view == (ConstraintLayout) o;
     }
 
     @Override
@@ -71,7 +72,7 @@ public class SliderAdapter extends PagerAdapter {
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
         //super.destroyItem(container, position, object);
-        container.removeView((RelativeLayout)object);
+        container.removeView((ConstraintLayout)object);
 
 
 
