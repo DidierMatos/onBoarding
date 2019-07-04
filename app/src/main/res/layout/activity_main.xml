@@ -10,7 +10,7 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="514dp"
+        android:layout_height="674dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"></android.support.v4.view.ViewPager>
 
@@ -20,7 +20,37 @@
         android:layout_height="54dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="horizontal"
+        android:layout_marginLeft="5000dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/prevBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:text="ATRAS"
+        android:textColor="@color/colorTransparentWhite"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:text="SIGUIENTE"
+        android:textColor="@color/colorTransparentWhite"
+        android:visibility="visible" />
 
 
 </RelativeLayout>
