@@ -25,19 +25,25 @@ public class SliderAdapter extends PagerAdapter {
     public int[] slide_images = {
             R.drawable.eat_icon,
             R.drawable.sleep_icon,
-            R.drawable.code_icon
+            R.drawable.code_icon,
+            R.drawable.eat_icon,
+            R.drawable.sleep_icon
     };
 
     public String [] slide_headings = {
             "EAT",
             "SLEEP",
-            "CODE"
+            "CODE",
+            "EAT2",
+            "SLEEP"
     };
 
     public String[] slide_descs = {
             "a asda asd wet grth tjuyuk gfbfk luikfv bdfgdf ng gvxg etdhg xfb",
             "b asda asd wet grth tjuyuk gfbfk luikfv bdfgdf ng gvxg etdhg xfb",
-            "c asda asd wet grth tjuyuk gfbfk luikfv bdfgdf ng gvxg etdhg xfb"
+            "c asda asd wet grth tjuyuk gfbfk luikfv bdfgdf ng gvxg etdhg xfb",
+            "d asda asd wet grth tjuyuk gfbfk luikfv bdfgdf ng gvxg etdhg xfb",
+            "e asda asd wet grth tjuyuk gfbfk luikfv bdfgdf ng gvxg etdhg xfb"
     };
 
     @Override
